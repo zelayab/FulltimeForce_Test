@@ -3,6 +3,7 @@
 FulltimeForce test based on ReactJs and NestJS
 
 FulltimeForce es un proyecto de ejemplo que muestra cómo utilizar diferentes tecnologías y herramientas para construir una aplicación web interactiva. En este proyecto, utilizamos tecnologías como Node.js, React, Axios, Tailwind CSS, React Icons y más para crear una aplicación que puede interactuar con una API externa de GitHub para mostrar una lista de commits. A lo largo de este archivo README, exploraremos los detalles de la configuración, instalación y funcionamiento del mismo.
+El proyecto usa un archivo .env para variables sensibles.Si necesitas pedirlo, puedes contactarme.
 
 ## Tabla de Contenidos
 
@@ -133,6 +134,8 @@ project/
 ENGLISH VERSION
 
 FulltimeForce is a sample project that demonstrates how to use different technologies and tools to build an interactive web application. In this project, we use technologies like Node.js, React, Axios, Tailwind CSS, React Icons, and more to create an application that can interact with an external GitHub API to display a list of commits. Throughout this README file, we will explore the details of setup, installation, and how to run the project.
+
+The project uses .env file for sensitive variables. If you need it, please contact me.
 
 Before getting started with the installation and running of Fullproyect, make sure you have the following tools and technologies installed in your development environment:
 
