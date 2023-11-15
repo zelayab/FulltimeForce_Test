@@ -25,7 +25,7 @@ export const CommitsListComponent = (props) => {
 			<h1 className="text-3xl font-bold text-center text-gray-900 mb-10">
 				Commits List
 			</h1>
-			<button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+			<button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
 				Link to last Commit :
 				<a href={commits.length > 0 && commits[0].html_url} target="_blank" className="text-blue-500 hover:text-blue-800 font-bold py-2 px-4 rounded inline-flex items-center pl-4">
 					{commits.length > 0 && <Commits commit={commits[0]} />}
